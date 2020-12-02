@@ -27,6 +27,8 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
 }
 
 .info__name .abt__btn {
@@ -42,6 +44,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+    outline-style: none;
 }
 
 .info__name .grad2 {
@@ -56,6 +61,8 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
 }
 
 .info__name .abt__btn2 {
@@ -71,6 +78,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+    outline-style: none;
 }
 
 .info__name .grad3 {
@@ -85,6 +95,8 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
 }
 
 .info__name .abt__btn3 {
@@ -100,6 +112,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+    outline-style: none;
 }
 
 .info__name .pre {
@@ -107,6 +122,18 @@
     bottom: 0px;
     right: 20px;
     color: grey;
+}
+
+@keyframes hueShift {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -145,11 +172,56 @@
         transform: translate(-50%, -50%);
         font-size: 35px;
     }
-    .info__name .abt__btn3{
+    .info__name .abt__btn3 {
         position: absolute;
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .info__name .grad1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+    }
+    .info__name .abt__btn {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+    .info__name .grad2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+    }
+    .info__name .abt__btn2 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+    .info__name .grad3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+    }
+    .info__name .abt__btn3 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
     }
 }
