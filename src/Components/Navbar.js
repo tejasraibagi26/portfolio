@@ -12,7 +12,7 @@ export default function NavbarComponent () {
                             {/* <Nav.Link href="#">Home.</Nav.Link>
                             <Nav.Link href="#">About Me.</Nav.Link>
                             <Nav.Link href="#">Projects.</Nav.Link> */}
-                            <Nav.Link href="/portfolio/contact-me">Contact.</Nav.Link>
+                            <Nav.Link to="/portfolio/contact-me">Contact.</Nav.Link>
                             </Nav>
                     </Navbar.Collapse>
                 </Navbar>
