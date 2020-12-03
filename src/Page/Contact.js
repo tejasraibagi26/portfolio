@@ -1,14 +1,13 @@
 import React from 'react';
+import Contact from '../Components/Contact/Contact';
 import FooterComponent from '../Components/Footer';
-import Home from '../Components/Home/MainHome';
 import NavbarComponent from '../Components/Navbar';
 
-export default function LandingPage () {
+export default function ContactMe () {
     return(
-        <section id="main__page">
+        <section id="contact__page">
             <NavbarComponent />
-            <Home />
-            <FooterComponent />
+            <Contact />
         </section>
     );
 }

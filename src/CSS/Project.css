@@ -1,0 +1,35 @@
+.project {
+    margin-top: 10%;
+}
+
+.project .project__title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+}
+
+.project .project__desc__title {
+    margin-top: 50px;
+    position: absolute;
+    left: 50px;
+    font-weight: bold;
+    font-style: 25px;
+}
+
+.project .project__desc {
+    margin: 110px 50px 20px 70px;
+    font-style: 25px;
+    color: grey;
+}
+
+.project .project__stack {
+    margin: 30px 20px 20px 70px;
+    font-style: 25px;
+    color: grey;
+}

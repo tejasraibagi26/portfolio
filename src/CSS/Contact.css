@@ -1,0 +1,42 @@
+/* .contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+.contact {
+    margin-top: 10%;
+}
+
+.contact .contact__title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+    background: -webkit-linear-gradient( 135deg, #F97794 10%, #623AA2 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+}
+
+.contact .contact__details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+
+.contact .grad {
+    background: -webkit-linear-gradient( 135deg, #F97794 10%, #623AA2 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+}

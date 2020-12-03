@@ -1,9 +1,9 @@
 import React from 'react';
-import '../CSS/Home.css';
-import '../CSS/Animation.css';
+import '../../CSS/Home.css';
+import '../../CSS/Animation.css';
 import {Link} from 'react-router-dom';
 import {Container, Row, Col,Button} from 'react-bootstrap';
-import dlLink from '../DownloadableContent/TejasRaibagi_Resume.pdf';
+import dlLink from '../../DownloadableContent/TejasRaibagi_Resume.pdf';
 
 export default function Home() {
     return (
@@ -21,12 +21,12 @@ export default function Home() {
                 </Col>
                 <Col xs={12} md={4}>
                         <div className = "info__name fadeIn" style={{animationDelay: "0.1s"}}>
-                            <a href = "#">
+                            <Link to = "/portfolio/projects">
                                 <h1 className="grad2">Project.</h1>
-                            </a>
-                            <p align = "center">
-                                <Button className = "abt__btn2">Click Me. ➞</Button>
-                            </p>
+                                <p align = "center">
+                                    <Button className = "abt__btn2">Click Me. ➞</Button>
+                                </p>
+                            </Link>
                         </div>
                 </Col>
                 <Col xs={12} md={4}>
@@ -37,7 +37,7 @@ export default function Home() {
                                 <Button className = "abt__btn3">Click Me. ➞</Button>
                             </p>
                         </a>
-                        <p className="pre">Early Production.</p>
+                        <p className="pre">Early Development.</p>
                     </div>
                 </Col>
             </Row>

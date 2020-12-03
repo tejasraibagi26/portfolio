@@ -10,6 +10,7 @@ export default function AboutMeSection () {
     var ed1 = "• University of Mumbai [GPA- 7.12] [2017-2021]"
     var ed2 = "• ShubhamRaje Jr College [HSC - 66.77%] [2015-2017]"
     var ed3 = "• Shree Maa Vidyalaya [SSC - 86.6%] [2013-2015]"
+    
     return(
         <div className="about__me">
             <h1 className="about__title fadeIn">About Me.</h1>
