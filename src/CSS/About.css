@@ -52,3 +52,9 @@
     font-style: 50px !important;
     color: grey;
 }
+
+@media only screen and (max-width: 600px) {
+    .about__me {
+        margin-top: 20%;
+    }
+}
