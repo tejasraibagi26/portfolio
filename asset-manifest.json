@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f0e7b5c0.chunk.css",
-    "main.js": "/portfolio/static/js/main.6c4056cd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6c4056cd.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.809ea1ad.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.809ea1ad.js.map",
+    "main.css": "/portfolio/static/css/main.23d96331.chunk.css",
+    "main.js": "/portfolio/static/js/main.16ad0933.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.16ad0933.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e990bcb8.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e990bcb8.js.map",
     "static/css/2.1a02f21c.chunk.css": "/portfolio/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.ce2ae53d.chunk.js": "/portfolio/static/js/2.ce2ae53d.chunk.js",
-    "static/js/2.ce2ae53d.chunk.js.map": "/portfolio/static/js/2.ce2ae53d.chunk.js.map",
-    "static/js/3.21f71d7b.chunk.js": "/portfolio/static/js/3.21f71d7b.chunk.js",
-    "static/js/3.21f71d7b.chunk.js.map": "/portfolio/static/js/3.21f71d7b.chunk.js.map",
+    "static/js/2.0faab150.chunk.js": "/portfolio/static/js/2.0faab150.chunk.js",
+    "static/js/2.0faab150.chunk.js.map": "/portfolio/static/js/2.0faab150.chunk.js.map",
+    "static/js/3.3df9e824.chunk.js": "/portfolio/static/js/3.3df9e824.chunk.js",
+    "static/js/3.3df9e824.chunk.js.map": "/portfolio/static/js/3.3df9e824.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.f0e7b5c0.chunk.css.map": "/portfolio/static/css/main.f0e7b5c0.chunk.css.map",
-    "static/js/2.ce2ae53d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ce2ae53d.chunk.js.LICENSE.txt",
+    "static/css/main.23d96331.chunk.css.map": "/portfolio/static/css/main.23d96331.chunk.css.map",
+    "static/js/2.0faab150.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0faab150.chunk.js.LICENSE.txt",
     "static/media/Tejas.53f8d345.svg": "/portfolio/static/media/Tejas.53f8d345.svg",
     "static/media/TejasRaibagi_Resume.09a92866.pdf": "/portfolio/static/media/TejasRaibagi_Resume.09a92866.pdf",
     "static/media/App.css": "/portfolio/static/media/alte-haas-grotesk.regular.6ae6623e.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.809ea1ad.js",
+    "static/js/runtime-main.e990bcb8.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.ce2ae53d.chunk.js",
-    "static/css/main.f0e7b5c0.chunk.css",
-    "static/js/main.6c4056cd.chunk.js"
+    "static/js/2.0faab150.chunk.js",
+    "static/css/main.23d96331.chunk.css",
+    "static/js/main.16ad0933.chunk.js"
   ]
 }
