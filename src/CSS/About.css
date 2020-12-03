@@ -1,3 +1,7 @@
+#about__page{
+    max-height: 100vh;
+}
+
 .about__me {
     margin-top: 10%;
 }
