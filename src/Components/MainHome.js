@@ -3,6 +3,7 @@ import '../CSS/Home.css';
 import '../CSS/Animation.css';
 import {Link} from 'react-router-dom';
 import {Container, Row, Col,Button} from 'react-bootstrap';
+import dlLink from '../DownloadableContent/TejasRaibagi_Resume.pdf';
 
 export default function Home() {
     return (
@@ -30,12 +31,12 @@ export default function Home() {
                 </Col>
                 <Col xs={12} md={4}>
                     <div className = "info__name fadeIn" style={{animationDelay: "0.2s"}}>
-                        <a href="#">
+                        <a href={dlLink} target="_blank" rel="noopener noreferrer" download="Resume">
                             <h1 className="grad3">Resume.</h1>
+                            <p align = "center">
+                                <Button className = "abt__btn3">Click Me. ➞</Button>
+                            </p>
                         </a>
-                        <p align = "center">
-                            <Button className = "abt__btn3">Click Me. ➞</Button>
-                        </p>
                         <p className="pre">Early Production.</p>
                     </div>
                 </Col>
