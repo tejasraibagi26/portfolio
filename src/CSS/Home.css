@@ -53,7 +53,7 @@
     cursor: pointer;
     font-weight: bolder;
     font-size: 45px;
-    background: -webkit-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,7 +73,7 @@
     transform: translate(-50%, -50%);
     background-color: transparent;
     border: none;
-    background: -webkit-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -87,7 +87,7 @@
     cursor: pointer;
     font-weight: bolder;
     font-size: 55px;
-    background: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,7 +107,7 @@
     transform: translate(-50%, -50%);
     background-color: transparent;
     border: none;
-    background: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -117,6 +117,8 @@
     outline-style: none;
 }
 
+
+
 .info__name .pre {
     position: absolute;
     bottom: 0px;
@@ -124,17 +126,7 @@
     color: grey;
 }
 
-@keyframes hueShift {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
+
 
 @media only screen and (max-width: 600px) {
     .info__name .grad1 {

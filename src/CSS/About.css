@@ -1,0 +1,54 @@
+.about__me {
+    margin-top: 10%;
+}
+
+.about__me .about__title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+    background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hueShift 5s linear infinite;
+    background-size: 300%;
+}
+
+.about__me .about__desc__title {
+    margin-top: 50px;
+    position: absolute;
+    left: 50px;
+    font-weight: bold;
+    font-style: 25px;
+}
+
+.about__me .about__desc {
+    margin: 100px 50px 50px 70px;
+    font-style: 25px;
+    color: grey;
+}
+
+.about__me .about__edu__title {
+    font-weight: bold;
+    font-style: 25px;
+    position: absolute;
+    left: 50px;
+}
+
+.about__me .about__edu {
+    margin: 100px 50px 50px 70px;
+    font-style: 50px !important;
+    color: grey;
+}
+
+.about__me .about__edu2 {
+    margin: 30px 50px 50px 70px;
+    font-style: 50px !important;
+    color: grey;
+}
+
+.about__me .about__edu3 {
+    margin: 30px 50px 50px 70px;
+    font-style: 50px !important;
+    color: grey;
+}

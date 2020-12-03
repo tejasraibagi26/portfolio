@@ -1,5 +1,7 @@
 import React from 'react';
 import '../CSS/Home.css';
+import '../CSS/Animation.css';
+import {Link} from 'react-router-dom';
 import {Container, Row, Col,Button} from 'react-bootstrap';
 
 export default function Home() {
@@ -7,17 +9,17 @@ export default function Home() {
         <Container fluid>
             <Row>
                 <Col xs={12} md={4} className="about">
-                    <div className = "info__name">
-                        <a href = "#">
+                    <div className = "info__name fadeIn">
+                        <Link to = "/portfolio/about-me">
                             <h1 className="grad1">About Me.</h1>
-                        </a>
-                        <p align = "center">
-                            <Button className = "abt__btn">Click Me. ➞</Button>
-                        </p>
+                            <p align = "center">
+                                <Button className = "abt__btn fadeIn">Click Me. ➞</Button>
+                            </p>
+                        </Link>
                     </div>
                 </Col>
                 <Col xs={12} md={4}>
-                        <div className = "info__name">
+                        <div className = "info__name fadeIn" style={{animationDelay: "0.1s"}}>
                             <a href = "#">
                                 <h1 className="grad2">Project.</h1>
                             </a>
@@ -27,7 +29,7 @@ export default function Home() {
                         </div>
                 </Col>
                 <Col xs={12} md={4}>
-                    <div className = "info__name">
+                    <div className = "info__name fadeIn" style={{animationDelay: "0.2s"}}>
                         <a href="#">
                             <h1 className="grad3">Resume.</h1>
                         </a>
